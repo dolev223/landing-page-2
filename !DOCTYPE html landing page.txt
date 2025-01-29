@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="he" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>השכרת ציוד הגברה</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #ff99cc;
+            text-align: center;
+        }
+        h1 {
+            color: black;
+            margin-top: 20px;
+        }
+        p {
+            font-size: 18px;
+            color: black;
+        }
+        form {
+            margin-top: 20px;
+        }
+        .input-field {
+            display: block;
+            margin: 10px auto;
+            padding: 10px;
+            width: 80%;
+            max-width: 400px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+        .submit-button {
+            background-color: #ff66a3;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            font-size: 16px;
+            cursor: pointer;
+        }
+        .submit-button:hover {
+            background-color: #e60073;
+        }
+        .images {
+            margin: 20px 0;
+        }
+        .images img {
+            max-width: 200px;
+            margin: 10px;
+        }
+    </style>
+</head>
+<body>
+    <h1>השכרת ציוד הגברה</h1>
+    <p>מארגן מסיבה או אירוע? הזמן ציוד הגברה איכותי לאירוע מושלם.</p>
+
+    <div class="images">
+        <img src="https://via.placeholder.com/200" alt="רמקול">
+        <img src="https://via.placeholder.com/200" alt="מיקסר">
+        <img src="https://via.placeholder.com/200" alt="מיקרופון">
+    </div>
+
+    <form action="https://formsubmit.co/dolevhocman@gmail.com" method="POST">
+        <input type="text" name="name" placeholder="שם" class="input-field" required>
+        <input type="tel" name="phone" placeholder="מספר טלפון" class="input-field" required>
+        <button type="submit" class="submit-button">שלח</button>
+    </form>
+</body>
+</html>
